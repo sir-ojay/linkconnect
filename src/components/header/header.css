@@ -1,0 +1,71 @@
+#profile__container {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0px 56px 0px;
+}
+#profile__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  margin-bottom: 24px;
+}
+#twitter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+#slack,
+#mobile {
+  display: none;
+}
+
+#web__img{
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px;
+  position: fixed;
+  left: 77.5%;
+  right: 10.53%;
+  top: 10.95%;
+  bottom: 14.95%;
+  
+  }
+#web {
+  position: absolute;
+  left: 30.5%;
+  right: 10.53%;
+  top: 26.95%;
+  bottom: 14.95%;
+}
+
+@media screen and (min-width : 350px ) and (max-width: 550px){
+  #web {display: none;}
+  #mobile__img{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    position: fixed;
+    left: 77.5%;
+    right: 10.53%;
+    top: 10.95%;
+    bottom: 14.95%;
+    
+    }
+  #mobile{
+    display: block;
+    color: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  position: absolute;
+  left: 30.5%;
+  right: 10.53%;
+  top: 38.95%;
+  bottom: 10.95%;
+  }
+}

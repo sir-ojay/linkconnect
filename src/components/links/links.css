@@ -1,0 +1,48 @@
+#links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#btn__twitter, #btn__zuri,#books,#book__python,#pitch,#book__design{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px; 
+  width: 1152px;
+  height: 76px;
+  background-color: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  
+}
+a{
+  text-decoration: none;
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+#links__icons{
+  padding: 24px 0px;
+  font-size: 24px;
+width: 1216px;
+height: 72px;
+background-color: #FFFFFF;
+}
+@media screen and (min-width : 350px ) and (max-width: 550px){
+  #btn__twitter, #btn__zuri,#books,#book__python,#pitch,#book__design{
+    padding: 24px 32px;
+    gap: 8px;
+    width: 343px;
+    height: 68px;
+  }
+  #links__icons{
+ display: none;
+  }
+}
