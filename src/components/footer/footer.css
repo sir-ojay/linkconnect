@@ -1,6 +1,6 @@
 #footer__container {
   height: 100px;
-  width: 1195.87px;
+  width: 90%;
   margin: 20px 0px 0px 80.36px;
   background-color: #ffffff;
 }
@@ -16,7 +16,7 @@
   position: absolute;
   left: 9.62%;
   right: 90.9%;
-  top: 153.6%;
+  top: 154.6%;
   bottom: 19.98%;
 }
 #footer__text {
@@ -27,13 +27,12 @@
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   #footer__container {
-    width: 375px;
     height: 196px;
     padding: 32px 0px;
-    margin-left: 20px;
+    margin-left:5%;
   }
   #rule {
-    width: 335px;
+    width: 90%;
   }
 
   #footer {
@@ -54,9 +53,9 @@
     width: 99.09px;
   }
   #dot {
-    left: 11.8%;
+    left: 12.6%;
     right: 91.9%;
-    top: 171.1%;
+    top: 166.1%;
     bottom: 7.98%;
   }
   #footer__text {

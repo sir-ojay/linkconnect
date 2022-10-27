@@ -18,7 +18,7 @@
   align-items: center;
   padding: 24px 32px;
   gap: 8px;
-  width: 1152px;
+  width: 80%;
   height: 76px;
   background-color: #eaecf0;
   border: 1px solid #eaecf0;
@@ -45,7 +45,7 @@ a:hover {
    display: none;
    position: absolute;
    background-color: #ffffff;
-   min-width: 160px;
+   min-width: 20%;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
 }
@@ -66,7 +66,6 @@ a:hover {
 #links__icons {
   padding: 24px 0px;
   font-size: 24px;
-  width: 1216px;
   height: 72px;
   background-color: #ffffff;
 }
@@ -83,12 +82,11 @@ a:hover {
   #book__design {
     padding: 24px 32px;
     gap: 8px;
-    width: 343px;
     height: 68px;
   }
   .dropdown-content {
     margin-top:120px; 
-    width: 250px;
+    width: 40%;
    
  }
  

@@ -52,8 +52,8 @@
     border: 1px dashed #d0d5dd;
     border-radius: 20px;
     position: fixed;
-    left: 60.5%;
-    right: 10.53%;
+    left: 75.5%;
+    right: 40.53%;
     top: 10.95%;
     bottom: 14.95%;
   }
@@ -63,9 +63,9 @@
     border: 1px dashed #d0d5dd;
     border-radius: 20px;
     position: absolute;
-    left: 30.5%;
-    right: 10.53%;
-    top: 38.95%;
+    left: 33.5%;
+    right: 40.53%;
+    top: 40.95%;
     bottom: 10.95%;
   }
 }
