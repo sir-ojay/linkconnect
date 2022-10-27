@@ -42,30 +42,26 @@
   #footer {
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     padding-left: 0;
+  
    
-   
-  }
-  #footer__img{
-
-    margin: 0;
-    padding: 0;
   }
  
   #zuri__logo, #ing__logo{
-    margin: 0;
-    padding: 0;
-   
-    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
   }
   #dot {
     position: absolute;
-    left: 9.62%;
+    left: 29.62%;
     right: 90.9%;
-    top: 153.6%;
+    top: 149.1%;
     bottom: 19.98%;
+  }
+  #footer__text {
+padding: 10px;
   }
   
 }
