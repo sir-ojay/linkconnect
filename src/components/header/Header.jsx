@@ -12,7 +12,7 @@ const Header = () => {
           <img src={avatar} alt="avatar" id="profile__img" />
         </div>
         <p id="twitter">ibrahimsannu</p>
-        <p id="slack">prince.ibrahim76@gmail.com</p>
+        <p id="slack">Ojay</p>
       </div>
       <div id="bg__icon">
         <div id="web__img">
