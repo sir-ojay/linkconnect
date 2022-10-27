@@ -23,9 +23,49 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #667085;
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   #footer__container {
-    display: none;
+    width: 375px;
+    height: 196px;
+    padding: 32px 0px;
+    margin: 0px;
+ 
   }
+  #rule {
+    border: 1px solid rgba(172, 163, 163, 0.199);
+    margin-left: 50px;
+    width: 375px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+   
+   
+  }
+  #footer__img{
+
+    margin: 0;
+    padding: 0;
+  }
+ 
+  #zuri__logo, #ing__logo{
+    margin: 0;
+    padding: 0;
+   
+    align-items: center;
+  }
+  #dot {
+    position: absolute;
+    left: 9.62%;
+    right: 90.9%;
+    top: 153.6%;
+    bottom: 19.98%;
+  }
+  
 }

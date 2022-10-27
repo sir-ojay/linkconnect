@@ -30,6 +30,10 @@ a {
   font-size: 18px;
   line-height: 28px;
 }
+a:hover{
+  border-bottom: 1px solid #eaecf0;
+  text-decoration: underline;
+}
 #links__icons {
   padding: 24px 0px;
   font-size: 24px;

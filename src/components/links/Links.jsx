@@ -5,24 +5,24 @@ import { FaGithub, FaSlack } from "react-icons/fa";
 const Links = () => {
   return (
     <div id="links-container">
-      <div id="btn__twitter">
+      <button id="btn__twitter">
         <a href="https://twitter.com/ibrahimsannu">Twitter Link</a>
-      </div>
-      <div id="btn__zuri">
+      </button>
+      <butto id="btn__zuri">
         <a href="https://training.zuri.team/">Zuri Team</a>
-      </div>
-      <div id="books">
+      </butto>
+      <button id="books">
         <a href="http://books.zuri.team/">Zuri Books</a>
-      </div>
-      <div id="book__python">
+      </button>
+      <button id="book__python">
         <a href="https://books.zuri.team/">Python Books</a>
-      </div>
-      <div id="pitch">
+      </button>
+      <button id="pitch">
         <a href="https://background.zuri.team/">Background Check for Coders</a>
-      </div>
-      <div id="book__design">
+      </button>
+      <button id="book__design">
         <a href="https://books.zuri.team/design-rules">Design Books</a>
-      </div>
+      </button>
       <div id="links__icons">
         <FaSlack /> <FaGithub />
       </div>

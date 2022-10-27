@@ -9,15 +9,15 @@ const Footer = () => {
     <div id="footer__container">
       <hr id="rule"/>
       <div id="footer">
-        <p>
-          <img src={zuri} alt="zuri-logo" />{" "}
+        <p id ='footer__img'>
+          <img src={zuri} alt="zuri-logo" id="zuri__logo"/>{" "}
           <span id="dot">
             <img src={dot} alt="dot" />
           </span>
         </p>
         <p id="footer__text">HNG Internship 9 Frontend Task</p>
-        <p>
-          <img src={ig} alt="ingressive-logo" />
+        <p id ='footer__img'>
+          <img src={ig} alt="ingressive-logo" id="ing__logo" />
         </p>
       </div>
     </div>
