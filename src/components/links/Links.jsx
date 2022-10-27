@@ -38,7 +38,11 @@ const Links = () => {
           Python Books
         </a>
         <div class="dropdown-content">
-          <p> This is where you can find the best books. It shows you how to build the technical skills and confidence you need in your career.</p>
+          <p>
+            {" "}
+            This is where you can find the best books. It shows you how to build
+            the technical skills and confidence you need in your career.
+          </p>
         </div>
       </button>
       <button class="dropdown" id="pitch">

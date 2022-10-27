@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 #btn__twitter,
@@ -43,7 +44,7 @@ a:hover {
    margin-top:110px; 
    display: none;
    position: absolute;
-   background-color: #eaecf0;
+   background-color: #ffffff;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
@@ -60,6 +61,7 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: all 0.2s ease-out;
 }
 #links__icons {
   padding: 24px 0px;
@@ -70,7 +72,7 @@ a:hover {
 }
 #link__icon {
   color: #e01e5a;
-  padding-right: 5px;
+  margin-right: 20px;
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   #btn__twitter,
@@ -87,7 +89,6 @@ a:hover {
   .dropdown-content {
     margin-top:120px; 
     width: 250px;
-   
    
  }
  
