@@ -5,38 +5,41 @@ import { FaGithub, FaSlack } from "react-icons/fa";
 const Links = () => {
   return (
     <div id="links-container">
-      <button id="btn__twitter">
+   
         <a
           href="https://twitter.com/ibrahimsannu"
           target="_blank"
           rel="noreferrer"
+          id="btn__twitter"
         >
           Twitter Link
         </a>
-      </button>
-      <button id="btn__zuri">
-        <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
+   
+     
+        <a href="https://training.zuri.team/" target="_blank" rel="noreferrer" id="btn__zuri">
           Zuri Team
         </a>
-      </button>
+     
 
-      <button class="dropdown" id="books">
-        <a href="http://books.zuri.team/" target="_blank" rel="noreferrer">
+     
+        <a href="http://books.zuri.team/" target="_blank" rel="noreferrer" class="dropdown" id="books">
           Zuri Books
-        </a>
+      
         <div class="dropdown-content">
           <h2>Zuri Books</h2>
           <p> This is where you find books about design and coding</p>
         </div>
-      </button>
-      <button class="dropdown" id="book__python">
+          </a>
+ 
+   
         <a
           href="https://books.zuri.team/python-for-beginners?ref_id=<Ojay>"
           target="_blank"
           rel="noreferrer"
+          class="dropdown" id="book__python"
         >
           Python Books
-        </a>
+       
         <div class="dropdown-content">
           <p>
             {" "}
@@ -44,15 +47,17 @@ const Links = () => {
             the technical skills and confidence you need in your career.
           </p>
         </div>
-      </button>
-      <button class="dropdown" id="pitch">
+        </a>
+    
+
         <a
           href="https://backgroundcheck.zuri.team/"
           target="_blank"
           rel="noreferrer"
+          class="dropdown" id="pitch"
         >
           Background Check for Coders
-        </a>
+     
         <div class="dropdown-content">
           <p>
             {" "}
@@ -60,22 +65,25 @@ const Links = () => {
             coders. <b>Act Now! Limited checks.</b>
           </p>
         </div>
-      </button>
-      <button class="dropdown" id="book__design">
+           </a>
+     
+     
         <a
           href="https://books.zuri.team/design-rules"
           target="_blank"
           rel="noreferrer"
+          class="dropdown" id="book__design"
         >
           Design Books
-        </a>
+      
         <div class="dropdown-content">
           <p>
             {" "}
             This is where you can pitch the free design book offered by Zuri
           </p>
         </div>
-      </button>
+          </a>
+
       <div id="links__icons">
         <a href="prince.ibrahim76@gmail.com" target="_blank" rel="noreferrer">
           {" "}
