@@ -64,11 +64,27 @@ a:hover {
   transition: all 0.2s ease-out;
 }
 #links__icons {
-  padding: 24px 0px;
+  padding: 22px 0px;
   font-size: 24px;
   height: 72px;
   background-color: #ffffff;
+  display: flex;
+flex-direction: row;
+
 }
+
+#links__icons img{
+  height: 40.9px;
+width: 50.9px;
+margin-right: 20px;
+
+
+}
+#github{
+   margin-top: 10px;
+
+}
+
 #link__icon {
   color: #e01e5a;
   margin-right: 20px;

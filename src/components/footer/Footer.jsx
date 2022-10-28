@@ -1,7 +1,6 @@
 import React from "react";
 import ig from "../../assets/ig.png";
-// import zuri from "../../assets/zurilogo.png";
-// import dot from "../../assets/dot.png";
+
 import "./footer.css";
 
 const Footer = () => {

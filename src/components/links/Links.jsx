@@ -1,6 +1,7 @@
 import React from "react";
 import "./links.css";
-import { FaGithub, FaSlack } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import Slack from '../../assets/slack.png'
 
 const Links = () => {
   return (
@@ -85,13 +86,19 @@ const Links = () => {
           </a>
 
       <div id="links__icons">
-        <a href="prince.ibrahim76@gmail.com" target="_blank" rel="noreferrer">
+        <a href="https://slack.com/prince.ibrahim76@gmail.com" target="_blank" rel="noreferrer">
           {" "}
-          <FaSlack id="link__icon" />
+          <div>
+          <img src={Slack} alt="" id='slack__logo'/>
+          </div>
         </a>
         <a href="https://github.com/sir-ojay" target="_blank" rel="noreferrer">
           {" "}
-          <FaGithub />
+          <div>
+          <FaGithub id='github'/>
+
+          </div>
+          
         </a>
       </div>
     </div>
