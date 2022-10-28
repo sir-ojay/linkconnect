@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../assets/avatar.jpg";
+import avatar from "../../assets/Avatar.png";
 import web from "../../assets/web.png";
 import mobile from "../../assets/mobile.png";
 import "./header.css";

@@ -1,7 +1,7 @@
 import React from "react";
 import ig from "../../assets/ig.png";
-import zuri from "../../assets/zurilogo.png";
-import dot from "../../assets/dot.png";
+// import zuri from "../../assets/zurilogo.png";
+// import dot from "../../assets/dot.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -10,10 +10,10 @@ const Footer = () => {
       <hr id="rule"/>
       <div id="footer">
         <p id ='footer__img'>
-          <img src={zuri} alt="zuri-logo" id="zuri__logo"/>{" "}
-          <span id="dot">
-            <img src={dot} alt="dot" />
-          </span>
+      
+          <p className="zuri__logo"> Zuri </p>
+          <p className="footer-dot"></p>
+          <p className="zuri__logo">Internship</p>
         </p>
         <p id="footer__text">HNG Internship 9 Frontend Task</p>
         <p id ='footer__img'>
