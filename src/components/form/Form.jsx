@@ -78,7 +78,7 @@ const Form = () => {
             <label htmlFor="last_name">Last name</label>
             <input
               type="text"
-              placeholder="Enter your first name"
+              placeholder="Enter your last name"
               id="last_name"
               className={` ${errors.lastname && "invalid"}`}
               {...register("lastname", {
