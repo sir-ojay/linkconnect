@@ -6,13 +6,11 @@ const Form = () => {
   const name = "Ibrahim Sannu";
 
   const [formValid, setFormValid] = useState(false);
-  
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-    reset,
     trigger,
   } = useForm();
   const [form, setForm] = useState({
@@ -21,7 +19,6 @@ const Form = () => {
     email: "",
     messageinfo: "",
   });
- 
 
   useEffect(() => {
     if (
@@ -47,7 +44,6 @@ const Form = () => {
     sessionStorage.setItem("contactMe", JSON.stringify({ ...form }));
 
     window.location = "/";
-    reset();
     formValid();
   };
   return (
@@ -122,7 +118,7 @@ const Form = () => {
           <textarea
             maxlength="1005"
             minlength="3"
-            placeholder=" Send me a message and i ll reply you as soon as possible...."
+            placeholder="Send me a message and i'll reply you as soon as possible...."
             id="message"
             className={`${errors.messageinfo && "invalid"}`}
             {...register("messageinfo", { required: "Please enter a message" })}
@@ -136,9 +132,8 @@ const Form = () => {
         <span>
           <input
             type="checkbox"
-            name=""
             id="checkbox"
-            className={` ${errors.checkbox && "invalid"}`}
+            className={` ${errors.checkbox && "unclicked"}`}
             {...register("checkbox", {
               required: "checkbox is required",
             })}
@@ -152,7 +147,18 @@ const Form = () => {
         </span>
 
         <div>
-          <button id="btn__submit">Send message</button>
+          <button
+            id="btn__submit"
+            className={` ${errors.button && "buttn"}`}
+            {...register("button", {
+              required: " ",
+            })}
+            onKeyUp={() => {
+              trigger("button");
+            }}
+          >
+            Send message
+          </button>
         </div>
       </form>
     </>
