@@ -11,7 +11,8 @@
 #books,
 #book__python,
 #pitch,
-#book__design {
+#book__design,
+#contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,32 +26,36 @@
   border-radius: 8px;
   margin-bottom: 20px;
 }
+
 a {
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
 }
+
 a:hover {
   border-bottom: 1px solid #eaecf0;
   text-decoration: underline;
 }
-.dropdown{
-  float:right;
+
+.dropdown {
+  float: right;
   overflow: hidden;
 }
- 
+
 .dropdown-content {
-   margin-top:110px; 
-   display: none;
-   position: absolute;
-   background-color: #ffffff;
-   min-width: 20%;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  
+  margin-top: 110px;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 20%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
 
-.dropdown-content h2, .dropdown-content p {
+.dropdown-content h2,
+.dropdown-content p {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -63,25 +68,27 @@ a:hover {
   display: block;
   transition: all 0.2s ease-out;
 }
+
 #links__icons {
   padding: 22px 0px;
   font-size: 24px;
   height: 72px;
   background-color: #ffffff;
   display: flex;
-flex-direction: row;
+  flex-direction: row;
 
 }
 
-#links__icons img{
+#links__icons img {
   height: 40.9px;
-width: 50.9px;
-margin-right: 20px;
+  width: 50.9px;
+  margin-right: 20px;
 
 
 }
-#github{
-   margin-top: 10px;
+
+#github {
+  margin-top: 10px;
 
 }
 
@@ -89,7 +96,9 @@ margin-right: 20px;
   color: #e01e5a;
   margin-right: 20px;
 }
+
 @media screen and (min-width: 350px) and (max-width: 550px) {
+
   #btn__twitter,
   #btn__zuri,
   #books,
@@ -100,10 +109,11 @@ margin-right: 20px;
     gap: 8px;
     height: 68px;
   }
+
   .dropdown-content {
-    margin-top:120px; 
+    margin-top: 120px;
     width: 40%;
-   
- }
- 
+
+  }
+
 }
