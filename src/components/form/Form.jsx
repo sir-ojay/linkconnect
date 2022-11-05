@@ -6,6 +6,7 @@ const Form = () => {
   const name = "Ibrahim Sannu";
 
   const [formValid, setFormValid] = useState(false);
+  
 
   const {
     register,
@@ -20,6 +21,7 @@ const Form = () => {
     email: "",
     messageinfo: "",
   });
+ 
 
   useEffect(() => {
     if (
@@ -46,6 +48,7 @@ const Form = () => {
 
     window.location = "/";
     reset();
+    formValid();
   };
   return (
     <>
